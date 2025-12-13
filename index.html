@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بروتوفوليو تصميم وتطوير</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">بروتو<span>فوليو</span></a>
+                
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+                <ul class="nav-links">
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#about">عني</a></li>
+                    <li><a href="#skills">المهارات</a></li>
+                    <li><a href="#projects">المشاريع</a></li>
+                    <li><a href="#contact">تواصل</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- قسم المقدمة -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1 class="fade-in">مرحباً، أنا <span style="color: #b3dee2;">ملاك</span></h1>
+            <p class="fade-in">مصممة واجهات أمامية ومصممة واجهات تجربة مستخدم (UI/UX).</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn fade-in">أعمالي</a>
+                <a href="#contact" class="btn btn-outline fade-in">تواصل معي</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم عني -->
+    <section id="about">
+        <div class="container">
+            <h2>عني</h2>
+            <div class="about-content">
+                <div class="about-img fade-in">
+                    <img src="pic/download20251104230625.png" alt="صورة">
+                </div>
+                <div class="about-text fade-in">
+                    <h3>مصممة مواقع وواجهات مستخدم</h3>
+                    <p>أنا ملاك، طالبة علوم حاسوب وشغوفة بمجال تطوير الويب وتصميم واجهات المستخدم. أعمل على تعلّم وبناء مواقع بسيطة وجذابة بصريًا، مع اهتمام كبير بتجربة المستخدم وسهولة الاستخدام.</p>
+                    <p>أمتلك مهارات أساسية في HTML وCSS، وأتطور تدريجيًا في JavaScript. كما أستخدم أدوات التصميم مثل Figma لإنشاء واجهات منظمة ونماذج أولية تعكس أفكاري.</p>
+                    <p>أحب تحويل الأفكار إلى تصاميم واضحة ومواقع تعمل بسلاسة، وأسعى دائمًا لتحسين مهاراتي وتطوير أعمالي خطوة بخطوة.</p>
+                    <a href="#contact" class="btn" style="margin-top: 20px;">تواصل معي</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المهارات -->
+    <section id="skills">
+        <div class="container">
+            <h2>مهاراتي</h2>
+            <div class="skills-container">
+                <div class="skill-item fade-in">
+                    <div class="skill-header">
+                        <span class="skill-name">HTML</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item fade-in">
+                    <div class="skill-header">
+                        <span class="skill-name">CSS</span>
+                        <span class="skill-percent">65%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="65"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item fade-in">
+                    <div class="skill-header">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-percent">30%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="30"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item fade-in">
+                    <div class="skill-header">
+                        <span class="skill-name">Wordpress</span>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item fade-in">
+                    <div class="skill-header">
+                        <span class="skill-name">UI/UX Design (Figma)</span>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="88"></div>
+                    </div>
+                </div>
+                
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المشاريع -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>مشاريعي</h2>
+            
+            <div class="project-filter fade-in">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="web">تطوير الويب</button>
+                <button class="filter-btn" data-filter="ui-ux">تصميم UI/UX</button>
+                
+            </div>
+            
+            <div class="projects-grid">
+                <!-- مشروع 1 -->
+                <div class="project-card fade-in" data-category="web">
+                    <div class="project-img">
+                        <img src="pic/c8947533e1604585927b3ac4fe8c0ce2.jpg" alt=" موقع">
+                    </div>
+                    <div class="project-content">
+                        <h3>موقع حجز منتجعات</h3>
+                        <p>موقع الكتروني لحجز المنتجعات مع توفر التفاصيل الكاملة لكل عقار </p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JS</span>
+                        </div>
+                        <a href="https://silver9wolf.github.io/Gradiuation-project/" class="btn">عرض المشروع</a>
+                    </div>
+                </div>
+                
+                <!-- مشروع 2 -->
+                <div class="project-card fade-in" data-category="ui-ux">
+                    <div class="project-img">
+                        <img src="pic/c8947533e1604585927b3ac4fe8c0ce2.jpg" alt="تصميم تطبيق جوال">
+                    </div>
+                    <div class="project-content">
+                        <h3>تطبيق خدمات طلابية</h3>
+                        <p>تطبيق لطلاب الجامعة يوفر لهم المناهج الدراسية مع اسئلة السنوات والملخصات</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Figma</span>
+                            <span class="project-tag">UI/UX</span>
+                            <span class="project-tag">Prototyping</span>
+                        </div>
+                        <a href="https://www.figma.com/proto/YQtLSLLihBHo7FsGSx6FS6/My-final-project?node-id=8-14&starting-point-node-id=8%3A14&t=SoYb3W8k2YvIVg31-1" class="btn">عرض المشروع</a>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الاتصال -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>اتصل بي</h2>
+            
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">malaknuri269269@gmail.com</div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-text">092-4950198</div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-text">طرابلس</div>
+                </div>
+            </div>
+            
+            <a href="malaknuri269269@gmail.com" class="btn" style="margin-top: 30px;">راسلني الآن</a>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.figma.com/files/team/1352187748757457580/recents-and-sharing?fuid=1352187746517271016" class="social-link" target="_blank">
+                    <i class="fab fa-figma"></i>
+                </a>
+                
+                </a>
+                <a href="https://github.com/Silver9wolf" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://t.me/malak_09090" class="social-link" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </div>
+            
+            <p class="copyright">© 2025-2026 جميع الحقوق محفوظة. بروتوفوليو ملاك
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
